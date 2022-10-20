@@ -1,7 +1,7 @@
 const teachers = [
   {
     name: "Ankesh Sir",
-    url: "/dist/img/rgb/PAP_SIR.png",
+    url: "/GTT/dist/img/rgb/PAP_SIR.png",
     share_url: "RGB",
     silhouette_url: "/GTT/dist/img/bw/PAP_SIR.png",
     silhouette_share_url: "WB",
@@ -9,9 +9,9 @@ const teachers = [
   },
   {
     name: "Nirmal Sir",
-    url: "GTT//dist/img/rgb/MNH_SIR.png",
+    url: "/GTT/dist/img/rgb/MNH_SIR.png",
     share_url: "https://imgur.com/b51DzFD",
-    silhouette_url: "/dist/img/bw/MNH_SIR.png",
+    silhouette_url: "/GTT/dist/img/bw/MNH_SIR.png",
     silhouette_share_url: "https://imgur.com/n86AP05",
     comment: `<div><p><span id="author">James</span>:</p><p>Stop right there!</p><p>That teacher is Team Rocket's! Surrender now, or prepare to fight!</p></div>`,
   },
