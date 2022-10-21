@@ -118,15 +118,16 @@ body > * {
 
 
 
-#pokemon {
+#teacher {
 	--width: 20em;
 	height: 20em;
 	border-radius: 2%;
 	overflow: hidden;
 }
-#pokemon img {
+#teacher img {
 	display: block;
 	width: 100%;
+	min-width: 762px;
 }
 
 

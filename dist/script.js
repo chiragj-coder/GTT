@@ -1,4 +1,12 @@
 const teachers = [
+  // {
+  //   name: "Roma Ma'am",
+  //   url: "/GTT/dist/img/rgb/BRR_MAAM.png",
+  //   share_url: "https://imgur.com/yYhN5Yd",
+  //   silhouette_url: "/GTT/dist/img/bw/BRR_MAAM.png",
+  //   silhouette_share_url: "https://imgur.com/V6WRZ4I",
+  //   comment: `<div><p><span id="author">Brock</span>:</p><p>A strange seed was planted on its back at birth. The plant sprouts and grows with this teacher.</p></div>`,
+  // },
   {
     name: "Ankesh Sir",
     url: "/GTT/dist/img/rgb/PAP_SIR.png",
@@ -15,14 +23,22 @@ const teachers = [
     silhouette_share_url: "https://imgur.com/n86AP05",
     comment: `<div><p><span id="author">James</span>:</p><p>Stop right there!</p><p>That teacher is Team Rocket's! Surrender now, or prepare to fight!</p></div>`,
   },
-  // {
-  //   name: "Bulbasaur",
-  //   url: "https://res.cloudinary.com/dl62zkqkq/image/upload/v1536077496/teacher-app/bulbasaur.png",
-  //   share_url: "https://imgur.com/yYhN5Yd",
-  //   silhouette_url: "https://res.cloudinary.com/dl62zkqkq/image/upload/v1536077496/teacher-app/bulbasaur-silhouette.png",
-  //   silhouette_share_url: "https://imgur.com/V6WRZ4I",
-  //   comment: `<div><p><span id="author">Brock</span>:</p><p>A strange seed was planted on its back at birth. The plant sprouts and grows with this teacher.</p></div>`,
-  // },
+  {
+    name: "Aalekh Sir",
+    url: "/GTT/dist/img/rgb/SAR_SIR.png",
+    share_url: "https://imgur.com/yYhN5Yd",
+    silhouette_url: "/GTT/dist/img/bw/SAR_SIR.png",
+    silhouette_share_url: "https://imgur.com/V6WRZ4I",
+    comment: `<div><p><span id="author">Brock</span>:</p><p>A strange seed was planted on its back at birth. The plant sprouts and grows with this teacher.</p></div>`,
+  },
+  {
+    name: "Amit Sir",
+    url: "/GTT/dist/img/rgb/CAH_SIR.png",
+    share_url: "https://imgur.com/yYhN5Yd",
+    silhouette_url: "/GTT/dist/img/bw/CAH_SIR.png",
+    silhouette_share_url: "https://imgur.com/V6WRZ4I",
+    comment: `<div><p><span id="author">Brock</span>:</p><p>A strange seed was planted on its back at birth. The plant sprouts and grows with this teacher.</p></div>`,
+  },
   // {
   //   name: "Squirtle",
   //   url: "https://res.cloudinary.com/dl62zkqkq/image/upload/v1536077502/teacher-app/squirtle.png",
