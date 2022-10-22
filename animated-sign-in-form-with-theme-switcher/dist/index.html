@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Animated sign in form with theme switcher</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap" rel="stylesheet">
+
+<link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'><link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<ul class="theme-picker">
+  <li data-theme="barney" class="barney"></li>
+  <li data-theme="firewatch" class="firewatch"></li>
+  <li data-theme="citrus" class="citrus"></li>
+  <li data-theme="marsh" class="marsh"></li>
+  <li data-theme="frost" class="frost"></li>
+  <li data-theme="slate" class="slate"></li>
+  <li data-theme="candy" class="candy"></li>
+</ul>
+
+<form class="form">
+  <h1>Welcome Back</h1>
+  <p>Enter your credentials to continue.</p>
+
+  <div class="input-wrapper">
+    <input type="text" placeholder="Enter your username" />
+    <i class="bx bxs-user-circle"></i>
+  </div>
+
+  <div class="input-wrapper">
+    <input type="password" placeholder="Enter your password" />
+    <i class="bx bx-key"></i>
+  </div>
+
+  <div class="button-wrapper">
+    <button type="submit">
+      Sign In
+      <i class="bx bx-right-arrow-alt"></i>
+    </button>
+  </div>
+</form>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>

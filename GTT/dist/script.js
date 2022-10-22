@@ -39,35 +39,11 @@ const teachers = [
     silhouette_share_url: "",
     comment: `<div><p><span id="author">Brock</span>:</p><p>A strange seed was planted on its back at birth. The plant sprouts and grows with this teacher.</p></div>`,
   },
-  // {
-  //   name: "Squirtle",
-  //   url: "https://res.cloudinary.com/dl62zkqkq/image/upload/v1536077502/teacher-app/squirtle.png",
-  //   share_url: "https://imgur.com/ekXbvX2",
-  //   silhouette_url: "https://res.cloudinary.com/dl62zkqkq/image/upload/v1536077501/teacher-app/squirtle-silhouette.png",
-  //   silhouette_share_url: "https://imgur.com/VPeNAtG",
-  //   comment: `<div><p><span id="author">Misty</span>:</p><p>Oh! is so cute.</p><p>Water teachers are the best.</p></div>`,
-  // },
-  // {
-  //   name: "Charmander",
-  //   url: "https://res.cloudinary.com/dl62zkqkq/image/upload/v1536077498/teacher-app/charmander.png",
-  //   share_url: "https://imgur.com/LS1p1LE",
-  //   silhouette_url: "https://res.cloudinary.com/dl62zkqkq/image/upload/v1536077495/teacher-app/charmander-silhouette.png",
-  //   silhouette_share_url: "https://imgur.com/W3Kx9Tx",
-  //   comment: `<div><p><span id="author">Ash</span>:</p><p>This one prefers hot places. When it rains, steam is said to spout from the tip of its tail.</p></div>`,
-  // },
 ];
 
 const randomPick = array => array[Math.floor(Math.random() * array.length)];
 
 $(document).ready(function () {
-
-  // const setTwitterLink = (t => url => {
-  //   t.attr("href", `https://twitter.com/intent/tweet?text=${url}`);
-  // })($("#tweet-quote"));
-
-  // const setFacebookLink = (f => url => {
-  //   f.attr("href", `https://www.facebook.com/sharer/sharer.php?u=${url}`);
-  // })($("#facebook-link"));
 
   const setImageLink = (a => url => a.attr("href", url))($("#teacher"));
   const setImage = (i => url => i.attr("src", url))($("#teacher img"));
@@ -82,8 +58,7 @@ $(document).ready(function () {
   function load (teacher) {
     setImageLink(teacher.silhouette_share_url);
     setImage(teacher.silhouette_url);
-    // setTwitterLink(teacher.silhouette_share_url);
-    // setFacebookLink(teacher.silhouette_share_url);
+
     setMsg(msg);
     docRoot.css("--links-visibility", "visible");
     docRoot.css("--display-reload-btn", "none");
@@ -118,8 +93,6 @@ $(document).ready(function () {
       docRoot.css("--display-other-form-btns", "none");
       setImageLink(teacher.share_url);
       setImage(teacher.url);
-      // setTwitterLink(teacher.share_url);
-      // setFacebookLink(teacher.share_url);
       reloadBtn.focus();
     } else {
       setMsg("<p>Nope, is not that one</p>");
@@ -129,7 +102,7 @@ $(document).ready(function () {
   });
   answerInput.keypress(function (event) {
     if (event.which == 13) {
-      submit.click();
+      // submit.click();
     }
   })
 
